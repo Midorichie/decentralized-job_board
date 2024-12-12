@@ -1,0 +1,10 @@
+[project]
+name = "decentralized-job_board"
+version = "0.1.0"
+
+[clarinet]
+network = "devnet"
+
+[contracts]
+escrow = "contracts/escrow.clar"
+nft-resume = "contracts/nft-resume.clar"
